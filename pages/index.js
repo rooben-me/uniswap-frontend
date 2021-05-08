@@ -38,7 +38,7 @@ export default function Home() {
         
         {/* Right items */}
 
-        <div className="fixed bottom-0 w-full p-4 flex justify-between items-center md:items-center md:w-auto md:justify-end md:bg-none md:static ">
+        <div className="absolute bottom-0 w-full p-4 flex justify-between items-center md:items-center md:w-auto md:justify-end md:bg-none md:static ">
           <div className="md:mr-2">
             <button className="text-primary-dark select-none bg-primary-light p-2 text-base cursor-pointer rounded-xl font-semibold border-2 border-accent-bg hover:border-primary-border">Connect to a wallet</button>
           </div>
