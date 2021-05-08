@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Logo */}
 
-        <div className="flex w-full justify-center my-8 md:w-auto md:inline-flex md:ml-8 md:my-4">
+        <div className="select-none flex w-full justify-center my-8 md:w-auto md:inline-flex md:ml-8 md:my-4">
           <a href="#" className="transform transition duration-150 hover:-rotate-3	">
           <img width="48px" src="https://app.uniswap.org/static/media/logo.4a50b488.svg" alt="logo" />
           </a>
@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="fixed bottom-0 w-full p-4 flex justify-between items-center md:items-center md:w-auto md:justify-end md:bg-none md:static ">
           <div className="md:mr-2">
-            <button className="text-primary-dark bg-primary-light p-2 text-base cursor-pointer rounded-xl font-semibold border-2 border-accent-bg hover:border-primary-border">Connect to a wallet</button>
+            <button className="text-primary-dark select-none bg-primary-light p-2 text-base cursor-pointer rounded-xl font-semibold border-2 border-accent-bg hover:border-primary-border">Connect to a wallet</button>
           </div>
           <div className="flex space-x-2">
             <div className="">
@@ -94,7 +94,7 @@ export default function Home() {
 
 
               { /* Connect wallet -- Button  */}
-              <button className="p-4 mt-4 text-primary-dark bg-primary-light text-base cursor-pointer rounded-3xl font-semibold w-full transform transition duration-300 ease-in-out hover:scale-95" >Connect Wallet</button>
+              <button className="p-4 mt-4 select-none text-primary-dark bg-primary-light text-base cursor-pointer rounded-3xl font-semibold w-full transform transition duration-300 ease-in-out hover:scale-95" >Connect Wallet</button>
 
             </div>
           </div>

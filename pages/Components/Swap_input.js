@@ -9,7 +9,7 @@ const Swap_item = () => {
 
                     <span className="flex justify-center items-center">
                         <div className="flex justify-center items-center">
-                          <div className="img mr-2 w-5 h-5">
+                          <div className="img mr-2 w-5 h-5 select-none">
                             <img className="w-5 h-5" src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/48/Ethereum-ETH-icon.png" alt="ethereum" />
                           </div>
                         <span>ETH</span>

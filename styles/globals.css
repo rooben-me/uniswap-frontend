@@ -28,6 +28,11 @@
   text-area:focus {
     outline: none;
   }
+
+  ::selection {
+    color: white;
+    background: rgb(255, 0, 122);
+  }
 }
 
 @layer components {
@@ -38,6 +43,6 @@
     font-weight: 600;
   }
   .center-items > a {
-    @apply text-accent-gray font-semibold px-3 py-2 cursor-pointer outline-none hover:text-black;
+    @apply text-accent-gray font-semibold px-3 py-2 cursor-pointer outline-none hover:text-black select-none;
   }
 }
