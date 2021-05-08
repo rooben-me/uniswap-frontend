@@ -28,7 +28,7 @@ export default function Home() {
         {/* Center items */}
 
         <div className="flex items-center justify-center rounded-2xl z-10 md:flex-grow md:justify-self-center">
-          <div className="center-items flex items-center justify-center rounded-2xl p-1 space-x-4 bg-white">
+          <div className="center-items flex items-center justify-center rounded-2xl p-1 space-x-2 md:space-x-4 bg-white">
             <a className="active" href="#">Swap</a>
             <a className="" href="#">Pool</a>
             <a className="" href="#">Vote</a>
@@ -59,8 +59,8 @@ export default function Home() {
 
       {/* Main container */}
 
-      <div className="main__container w-full flex items-center justify-center flex-grow">
-        <div className="main__wrapper max-w-lg w-full bg-white rounded-t-3xl mt-4 ">
+      <div className="main__container w-full flex items-center justify-center flex-grow p-4">
+        <div className="main__wrapper max-w-lg w-full bg-white rounded-3xl mt-4 ">
 
           {/* Main container -- Header */}
           <div className="head px-5 pt-4 pb-2">
@@ -76,7 +76,7 @@ export default function Home() {
 
           {/* Main container -- swap page */}
           <div className="p-2">
-            <div className="grid gap-3">
+            <div className="flex flex-col">
               <div className="">
                 <div className="swap__input">
                   <Swap_item />
